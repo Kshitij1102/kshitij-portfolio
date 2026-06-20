@@ -215,76 +215,145 @@ export default function Home() {
 
       </section>
 
-      {/* PROJECTS */}
+        {/* PROJECTS */}
 
-      <section
-        id="projects"
-        className="mx-auto max-w-7xl px-12 pb-40"
-      >
+<section
+  id="projects"
+  className="mx-auto max-w-7xl px-12 pb-40"
+>
 
-        <h2 className="mb-14 text-5xl font-bold">
-          Featured Projects
-        </h2>
+  <h2 className="mb-14 text-5xl font-bold">
+    Featured Projects
+  </h2>
 
-        <div className="grid gap-10">
+  <div className="grid gap-10">
 
-          <div className="overflow-hidden rounded-3xl border border-zinc-800 bg-zinc-950">
+    {/* AI NEXUS */}
 
-            <Image
-              src="/images/projects/ai-nexus.png"
-              width={1600}
-              height={900}
-              alt="AI Nexus"
-            />
+    <div className="overflow-hidden rounded-3xl border border-zinc-800 bg-zinc-950">
 
-            <div className="p-10">
+      <Image
+        src="/images/projects/ai-nexus.png"
+        width={1600}
+        height={900}
+        alt="AI Nexus"
+      />
 
-              <h3 className="text-4xl font-semibold">
-                AI Nexus
-              </h3>
+      <div className="p-10">
 
-              <a
-                href="https://ai-task-nexus.vercel.app"
-                target="_blank"
-                className="mt-8 inline-block rounded-2xl bg-white px-8 py-4 text-black"
-              >
-                Live Demo
-              </a>
+        <h3 className="text-4xl font-semibold">
+          AI Nexus
+        </h3>
 
-            </div>
+        <a
+          href="https://ai-task-nexus.vercel.app"
+          target="_blank"
+          className="mt-8 inline-block rounded-2xl bg-white px-8 py-4 text-black"
+        >
+          Live Demo
+        </a>
 
-          </div>
+      </div>
 
-          <div className="overflow-hidden rounded-3xl border border-zinc-800 bg-zinc-950">
+    </div>
 
-            <Image
-              src="/images/projects/snowy.png"
-              width={1600}
-              height={900}
-              alt="SNOWY"
-            />
 
-            <div className="p-10">
+    {/* SALESPILOT */}
 
-              <h3 className="text-4xl font-semibold">
-                SNOWY AI
-              </h3>
+    <div className="overflow-hidden rounded-3xl border border-zinc-800 bg-zinc-950">
 
-              <a
-                href="https://snowyai11.netlify.app"
-                target="_blank"
-                className="mt-8 inline-block rounded-2xl bg-white px-8 py-4 text-black"
-              >
-                Demo
-              </a>
+      <Image
+        src="/images/projects/salespilot.png"
+        width={1600}
+        height={900}
+        alt="SalesPilot AI"
+      />
 
-            </div>
+      <div className="p-10">
 
-          </div>
+        <h3 className="text-4xl font-semibold">
+          SalesPilot AI
+        </h3>
+
+        <p className="mt-5 text-lg leading-8 text-zinc-400">
+          AI-powered CRM dashboard for lead tracking,
+          pipeline management and sales workflow organization.
+          Built with Next.js and deployed on Vercel.
+        </p>
+
+        <div className="mt-8 flex gap-4">
+
+          <a
+            href="https://salespilot-ai-ruddy.vercel.app"
+            target="_blank"
+            className="
+            rounded-2xl
+            bg-white
+            px-8
+            py-4
+            text-black
+            "
+          >
+            Live Demo
+          </a>
+
+          <a
+            href="https://github.com/Kshitij1102/salespilot-ai"
+            target="_blank"
+            className="
+            rounded-2xl
+            border
+            border-zinc-700
+            px-8
+            py-4
+            hover:bg-white
+            hover:text-black
+            transition
+            "
+          >
+            GitHub
+          </a>
 
         </div>
 
-      </section>
+      </div>
+
+    </div>
+
+
+    {/* SNOWY */}
+
+    <div className="overflow-hidden rounded-3xl border border-zinc-800 bg-zinc-950">
+
+      <Image
+        src="/images/projects/snowy.png"
+        width={1600}
+        height={900}
+        alt="SNOWY"
+      />
+
+      <div className="p-10">
+
+        <h3 className="text-4xl font-semibold">
+          SNOWY AI
+        </h3>
+
+        <a
+          href="https://snowyai11.netlify.app"
+          target="_blank"
+          className="mt-8 inline-block rounded-2xl bg-white px-8 py-4 text-black"
+        >
+          Demo
+        </a>
+
+      </div>
+
+    </div>
+
+  </div>
+
+</section>
+
 
       {/* CONTACT */}
 
